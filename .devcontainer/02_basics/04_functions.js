@@ -28,7 +28,7 @@ console.log(result);//undefined
 //}
 //console.log(loginusermessage("hitesh"));//gives the answer
 
-function loginusermessage(username == "sam"){
+function loginusermessage(username = "sam"){
     if (!username){
         console.log("please enter a username")
         return

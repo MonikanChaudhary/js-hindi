@@ -10,7 +10,7 @@ myarr.push(7)
 myarr.pop()
 myarr.unshift(9)//add in start
 myarr.shift()//remove 9
-console.log(myarr.includes(8)):
+console.log(myarr.includes(8));
 console.log(myarr.indexOf(9))//if no present -1
 console.log(myarr);
 const newarr = myarr.join()
